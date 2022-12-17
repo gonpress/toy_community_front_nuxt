@@ -1,10 +1,10 @@
 <template>
-  <div>카카오 로그인 중...</div>
+  <div>네이버 로그인 중...</div>
 </template>
 
 <script>
 export default {
-  name: "KakaoCallback",
+  name: "NaverCallback",
   methods: {},
   async mounted() {
     try {
@@ -17,7 +17,7 @@ export default {
         domain: window.location.origin,
       };
 
-      const response = await this.$axios.$post("/auth/kakao-login", body, {});
+      const response = await this.$axios.$post("/auth/naver-login", body, {});
       console.log("response>>", response.access_token);
     } catch (error) {
       console.error(error);

@@ -16,6 +16,9 @@ export default {
       {
         src: "https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js",
       },
+      {
+        src: "https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.2.js",
+      },
     ],
   },
 
